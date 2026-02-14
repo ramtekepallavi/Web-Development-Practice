@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Day-9</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>CSS Selectors, Cascade & Inheritance Demo</h1>
+        <p>😊This page shows how CSS rules work together using cascade, specificity and inheritance.</p>
+    </header>
+
+    <!-- Q1: Two CSS rules (Cascade) -->
+    <section class="card">
+        <h2>Cascade </h2>
+        <p class="cascade">This text changes color because the last CSS rule overrides the first.</p>
+    </section>
+
+    <!-- Q2: Element, Class and ID selector -->
+    <section class="card">
+        <h2>Selector Priority</h2>
+        <p id="priority" class="priority">
+            ID selector wins over class and element selectors.
+        </p>
+    </section>
+
+    <!-- Q3: Without Inline CSS -->
+    <section class="card">
+        <h2>Style Wins?</h2>
+        <p class="size-test">
+            Font size becomes larger because the second rule overrides the first rule.
+        </p>
+    </section>
+
+    <!-- Q4: Inheritance -->
+    <section class="parent-box">
+        <h2>Inheritance</h2>
+        <p>Text inherits color from parent.</p>
+        <p>Background does NOT inherit.</p>
+    </section>
+
+    <!-- Q5: Box -->
+    <section class="card">
+        <h2>Box Model Example</h2>
+        <div class="box">
+            📦🔐<br>
+            Hello, I am a Box! I have a margin, padding, border and a width and height .
+        </div>
+    </section>
+
+</body>
+
+</html>

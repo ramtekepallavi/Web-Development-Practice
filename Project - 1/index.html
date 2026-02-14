@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Web Portal</title>
+  </head>
+<body>
+    <!-- Header -->
+    <h1>🌐 My Web Portal</h1>
+    <h3>Starting My Journey with HTML </h3>
+    <p><i>This web portal is created as a single-file HTML project . </i></p>
+    <hr>
+    <!-- Navigation -->
+    <p>
+        <a href="#about">About</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#results">Results</a> |
+        <a href="#register">Register</a> |
+        <a href="#media">Media</a> |
+        <a href="#contact">Contact</a>
+    </p>
+
+    <hr>
+    <!-- About Me -->
+    <h2 id="about">📘 About Me</h2>
+    <h3>My Details : </h3>
+    <p><strong>Name:</strong> Pallavi Ramteke</p>
+    <p><strong>Role:</strong> Student</p>
+    <p><strong>Email:</strong> ramtekp686@gmail.com</p>
+    <p><strong>Status:</strong> Active</p>
+
+    <img src="./profile.jpeg" alt="Profile Image" width="100" height="140" style="border-radius: 100%;">
+    <p><b>My Profile Image</b></p>
+
+    <p>
+        Hello! My name is <strong>Pallavi Ramteke</strong>.
+        I am a dedicated student with a strong interest in
+        <b>Web Development</b> and modern technologies.<br><br>
+        Currently, I am learning the fundamentals of
+        <i>HTML, CSS, and JavaScript</i> to build structured
+        and user-friendly web applications.
+    </p>
+    <hr>
+    <!-- Skills -->
+    <h2 id="skills">🛠 Skills</h2>
+
+    <h3>Technical Skills</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS (Basics)</li>
+        <li>JavaScript (Basics)</li>
+        <li>Use of GitHub(Basic)</li>
+    </ul>
+    <h3>Academic / Learning Skills</h3>
+    <ul>
+        <li>Logical Thinking</li>
+        <li>Problem Solving</li>
+        <li>Time Management</li>
+        <li>Communication Skills</li>
+    </ul>
+
+    <h3>Tools & Technology</h3>
+    <ul>
+        <li>VS Code (Code Editor)</li>
+        <li>GitHub (Version Control)</li>
+        <li>Chrome/Edge(Web Brosers)</li>
+        <li>Notepad</li>
+        <li>Canva</li>
+    </ul>
+
+    <h3>Learning Roadmap</h3>
+    <ol>
+        <li>HTML Fundamentals</li>
+        <li>CSS Styling</li>
+        <li>JavaScript Logic</li>
+    </ol>
+
+    <hr>
+
+    <!-- Results -->
+    <h2 id="results">📊 Third Semester Result</h2>
+
+    <table border="1" cellpadding="8">
+        <caption>Third Semester Academic Performance</caption>
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data Science</td>
+                <td>95</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>Computer Networks</td>
+                <td>93</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>Ethics</td>
+                <td>94</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>Mathematics</td>
+                <td>96</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>Personal Finance & Management</td>
+                <td>94</td>
+                <td>Pass</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><b>Total Marks</b></td>
+                <td><b>472 / 500</b></td>
+                <td>✅ Pass</td>
+            </tr>
+            <tr>
+                <td><b>Pointer / CGPA</b></td>
+                <td colspan="2"><b>9.45</b></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+
+    <!-- Registration Form -->
+    <h2 id="register">📝 Registration Form</h2>
+    <h4>Fill in the details below to register for 4th Semester</h4>
+
+    <form>
+        <label for="fname"><b>Full Name : </b></label>
+        <input type="text" id="name" name="fname" placeholder="Enter Full Name " required>
+        <br><br>
+        <label for="email"><b>Email : </b></label>
+        <input type="email" id="email" name="email" placeholder="Enter Valid Email ID " required>
+        <br><br>
+        <label for="pass"><b>Password</b> </label>
+        <input type="password" id="pass" name="pass" placeholder="Enter Password " required>
+        <br><br>
+        <label for="phone"><b>Phone number : </b></label>
+        <input type="number" id="phone" name="number" placeholder="Phone Number " required>
+        <br><br>
+        <label for="course"><b>Select Course : </b></label><br>
+        <input type="radio" name="course" required>Web Development<br>
+        <input type="radio" name="course">Information Technology<br>
+        <input type="radio" name="course">Data Science
+        <br><br>
+
+        <label for="gender"><b>Gender : </b></label>
+        <input type="radio" name="gender" id="male"> Male
+        <input type="radio" name="gender" id="female"> Female <br><br>
+
+        <label for="skills"><b>Skills:</b></label>
+        <input type="checkbox" name="skills" id="html"> HTML
+        <input type="checkbox" name="skills" id="css"> CSS
+        <input type="checkbox" name="skills" id="js"> JavaScript <br><br>
+
+        <label for="dob"><b>Date of Birth:</b></label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+
+    <hr>
+    
+    <h2 id="media">🎬 Media Section</h2>
+
+    <h3>Audio</h3>
+    <audio src="./audio.mpeg" controls autoplay muted loop></audio>
+    <hr>
+
+    <h3>HTML Video </h3>
+    <video src="./video.mp4" width="500px" height="350px" controls allowfullscreen muted autoplay loop></video>
+
+    <h3>YouTube Embed</h3>
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/HcOc7P5BMi4" allowfullscreen></iframe>
+    <hr>
+
+
+    <section id="contact">
+        <h2>📞 Contact Me</h2>
+
+        <p>
+            Feel free to <strong>connect with me</strong> for academic queries,
+            projects, or learning discussions.
+        </p>
+
+        <hr>
+
+        <!-- Clickable Contact Details -->
+        <details>
+            <summary><b>📧 Email Address</b></summary>
+            <p>
+                <a href="pallavi123@gmail.com">pallavi123@gmail.com</a>
+            </p>
+        </details>
+
+        <details>
+            <summary><b>📱 Phone Number</b></summary>
+            <p>
+                <a href="tel:+911234567890">
+                    +91 12345 67890
+                </a>
+            </p>
+        </details>
+
+        <details>
+            <summary><b>🌐 Social Profiles</b></summary>
+            <p>
+                <a href="https://github.com/ramtekepallavi" target="_blank">GitHub</a><br>
+                <a href="https://www.linkedin.com/in/pallavi-ramteke-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank">LinkedIn</a>
+            </p>
+        </details>
+
+        <hr>
+
+        <!-- Contact Form -->
+        <h3>📝 Send a Message</h3>
+
+        <form>
+            <label>Full Name:</label><br>
+            <input type="text" required><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" required><br><br>
+
+            <label>Your Message:</label><br>
+            <textarea rows="4" cols="30" required></textarea><br><br>
+
+            <input type="submit" value="Send Message">
+            <input type="reset" value="Clear">
+        </form>
+
+        <hr>
+
+
+
+    </section>
+
+    <!-- ================= END CONTACT SECTION ================= -->
+
+</body>
+
+</html>

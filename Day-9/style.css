@@ -1,0 +1,79 @@
+/* Page Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7ec1f8;
+    margin: 0;
+    text-align: center;
+}
+header {
+    background-color: #2d6cdf;
+    color: rgb(255, 187, 255);
+    padding: 25px;
+}
+h1 {
+    margin-bottom: 10px;
+}
+
+/* Card Layout */
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+/* ---------------- Q1 Cascade ---------------- */
+.cascade {
+    color: red;
+    font-weight: bold;
+}
+.cascade {
+    color: blue; 
+}
+
+/* ---------------- Q2 Specificity ---------------- */
+p {
+    color: green;
+}
+.priority {
+    color: purple;
+}
+#priority {
+    color: orange; /* Highest priority */
+    font-size: 20px;
+}
+
+/* ---------------- Q3 Rule Override ---------------- */
+.size-test {
+    font-size: 14px;
+}
+.size-test {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* ---------------- Q4 Inheritance ---------------- */
+.parent-box {
+    background-color: #ffeaa7;
+    color: #d63031;
+    padding: 25px;
+    width: 70%;
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+/* ---------------- Q5 Box ---------------- */
+.box {
+    width: 220px;
+    height: 120px;
+    outline: 3px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #74b9ff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

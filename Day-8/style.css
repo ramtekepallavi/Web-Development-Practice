@@ -1,0 +1,53 @@
+/* Page background  */
+body {
+    background-color: rgb(183, 213, 238);    
+}
+
+/* Element selector – styles all h1 elements */
+h1 {
+    color: rgb(131, 0, 253);
+}
+
+/* Reusable class selector */
+.text {
+    color: rgb(199, 23, 190);
+    font-size: 24px;
+    margin: 12px;
+}
+
+/* Different important text */
+.difftext {
+    background-color: yellow;
+    padding: 12px;
+}
+
+/* ID selector – applied to one element */
+#basicBtn {
+    color: red;
+    background-color: rgb(8, 199, 33);
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    margin: 20px;
+}
+
+/* Another ID selector */
+#advanceBtn {   
+    background-color: brown;
+    color: white;
+    border: none;
+}
+
+/* Button container styling */
+#buttonBox {
+    margin-top: 30px;
+    border: 7px double rgb(0, 0, 0);
+    padding: 15px;
+}
+
+/* Group selector – styles multiple elements together */
+h2, p, span {
+    font-size: 22px;
+    color: rgb(247, 17, 17);
+    border-bottom: 2px solid peru;
+}
